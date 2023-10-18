@@ -11,11 +11,11 @@ import venedig from './images/venedig.jpg'
 function EventDetails (){
     return(
         <Container className="justify-content-center">
-            <Row >
-                <Col md={6}>
+            <Row md={7}>
+                <Col md={2}>
                     <Image src={kapverde} alt="kapverde" rounded style={{ height: "300px", width: "300px" }}/>
                 </Col>
-                <Col>
+                <Col md={4}>
                     <Row>
                         <Row>
                         <Col >
