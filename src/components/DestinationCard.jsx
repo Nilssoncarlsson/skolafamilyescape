@@ -4,7 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 
-export const PopularDestinations = () => {
+
+export const DestinationCard = () => {
 
     const DestinationArray=[
         {
@@ -16,21 +17,25 @@ export const PopularDestinations = () => {
             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1gZokKXrRaiAqp7zpBh8bIvniRQXj3vQyuw&usqp=CAU",
             heading:"Paris",
             subheading: "Från 1550 kr",
+
         },
         {
             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1gZokKXrRaiAqp7zpBh8bIvniRQXj3vQyuw&usqp=CAU",
             heading:"Sicilien",
             subheading: "Från 1550 kr",
+
         },
         {
             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1gZokKXrRaiAqp7zpBh8bIvniRQXj3vQyuw&usqp=CAU",
             heading:"Tokyo",
             subheading: "Från 1550 kr",
+
         },
         {
             image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHbSruOR9HDL26tzW-vwYTNi9NB4Uf1ZHhcQ&usqp=CAU",
             heading:"Venedig",
             subheading: "Från 1550 kr",
+
         }
     ]
     return (
