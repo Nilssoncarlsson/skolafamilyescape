@@ -1,7 +1,8 @@
-import PopularDestinations, {DestinationCard} from './components/DestinationCard';
+import {DestinationCard} from './components/DestinationCard';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import EventDetails from './components/EventDetails';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
