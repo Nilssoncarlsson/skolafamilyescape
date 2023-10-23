@@ -49,12 +49,15 @@ function BookingForm (){
             </Row>
         </Form.Group>
 
-        <Form.Group  controlId="exampleForm.ControlTextarea1" className="Form-group" >   
-            <Form.Control placeholder="Några andra önskemål?" as="textarea" rows={6} />
+        <Form.Group  className="Form-group" >   
+            <Form.Control placeholder="Några andra önskemål?" as="textarea" rows={8} />
+        </Form.Group>
+        <Form.Group  className="Form-group" >   
+            <Form.Control placeholder="Några andra önskemål?" as="textarea" rows={8} />
         </Form.Group>
 
-            <Row className="infobox">
-                <h3>Återbetalningsbar</h3>
+            <Row className="infobox" rows={4}>
+                <strong>Återbetalningsbar</strong>
                 <p>Avboka senast 72h innan bokning för full återbetalning</p>
             </Row>
 

@@ -7,26 +7,29 @@
   border-radius: 25px;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 10px;
   margin: auto;
+  
 }
 .Form .Form-group{
-    height: 73px;
+    height: auto;
     width: 100%;
+    padding: 10px;
 }
 .Form .infobox{
-  margin-top: 150px;
-  padding: 20px 0px 20px 0px;
-  text-align: center;
+  margin-top: 2%;
+  text-align: left;
+  padding: 20px 25px;
 }
-.Form .Form-group .form-control, .Form .infobox {
+.Form .Form-group .form-control{
   box-shadow: 0px 3.42px 6.85px #f6f4f4;
-  border-radius: 27.4px;
+  border-radius: 20px;
 
 }
 
-.Form .Form-group .form-control, .Form .Form-group .form-check input, .Form .infobox {
+.Form .Form-group .form-control, .Form .Form-group .form-check input{
   border: 2.3px solid;
   border-color: #E5E7EB;
 }
+
 
