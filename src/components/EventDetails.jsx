@@ -13,24 +13,24 @@ function EventDetails (){
     return(
         
         <Container>
-            <Row xl={2} className="justify-content-center align-items-center">
+            <Row xl={2} className="justify-content-center align-items-center" style={{margin:"0px 15px" }}>
                 <Col>
-                    <Image src={event} alt="yoga" rounded style={{ height: "420px", width: "auto", margin:"7px" }}/>
+                    <Image src={event} alt="yoga" rounded style={{ height: "420px", width: "auto" }}/>
                 </Col>
                 <Col>
-                    <Row >
-                        <Row xl={2}>
+                    <Row style={{margin:"10px 15px" }}>
+                        <Row xl={2} className="align-items-center">
                         <Col>
-                            <Image src={paris} alt="kapverde" rounded style={{ height: "200px", width: "200px", margin:"10px 15px" }}/>
+                            <Image src={paris} alt="kapverde" rounded style={{ height: "200px", width: "200px" , margin:"0px", padding:"0px"}}/>
                         </Col>
                         <Col>
-                            <Image src={stad} alt="kapverde" rounded style={{ height: "200px", width: "200px", margin:"10px 15px" }}/>
+                            <Image src={stad} alt="kapverde" rounded style={{ height: "200px", width: "200px" , margin:"10px" , padding:"0px"}}/>
                         </Col>
-                        <Col>
-                                <Image src={venedig} alt="kapverde" rounded style={{ height: "200px", width: "200px", margin:"10px 15px"  }}/>
+                        <Col style={{ padding:"0px" }}>
+                                <Image src={venedig} alt="kapverde" rounded style={{ height: "200px", width: "200px", margin:"10px"}}/>
                             </Col>
                             <Col>
-                                <Image src={kapverde} alt="kapverde" rounded style={{ height: "200px", width: "200px", margin:"10px 15px"  }}/>
+                                <Image src={kapverde} alt="kapverde" rounded style={{ height: "200px", width: "200px", margin:"10px"  }}/>
                             </Col>
                         </Row>
                         
