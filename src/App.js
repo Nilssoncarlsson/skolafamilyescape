@@ -10,8 +10,6 @@ import BookingForm from './components/BookingForm';
 function App() {
   return (
     <div className="App">
-    <DestinationCard></DestinationCard>
-    <EventDetails></EventDetails>
       <BookingForm></BookingForm>
      </div>
   );
