@@ -2,7 +2,6 @@ import React from "react";
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
-import InputGroup from 'react-bootstrap/InputGroup';
 import '../App.css';
 import { Password } from "./BookingInput.jsx";
 
@@ -42,7 +41,7 @@ function BookingForm (){
             </Row>
             <Row>
                 <Col>
-                <Form.Check type="checkbox" label="Separerade sängar" />
+                <Form.Check  type="checkbox" label="Separerade sängar" />
                 </Col>
                 <Col>
                 <Form.Check type="checkbox" label="King size" />
@@ -50,7 +49,7 @@ function BookingForm (){
             </Row>
         </Form.Group>
 
-        <Form.Group  controlId="exampleForm.ControlTextarea1" className="Form-group">   
+        <Form.Group  controlId="exampleForm.ControlTextarea1" className="Form-group" >   
             <Form.Control placeholder="Några andra önskemål?" as="textarea" rows={6} />
         </Form.Group>
 
