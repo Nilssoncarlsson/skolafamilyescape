@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import '../App.css';
-import { Password } from "./BookingInput.jsx";
+// import { Password } from "./BookingInput.jsx";
 
 function BookingForm (){
     return (
