@@ -1,0 +1,61 @@
+.PaymentContainer {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 28.11px;
+    display: flex;
+    flex-direction: column;
+    gap: 36.14px;
+    padding: 28.11px;
+}
+
+.PaymentContainer .text-wrapper {
+    color: #161618;
+    /* font-family: "Montserrat-SemiBold", Helvetica;  */
+    /* font-size: 28.1px; */
+    font-weight: 600;
+    position: relative;
+}
+
+.PaymentContainer .subtotal, .PaymentContainer .total, .PaymentContainer .discount {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    width: 622.35px;
+}
+
+.PaymentContainer .text-wrapper-2 {
+    flex: 1;
+    font-weight: 500;
+}
+
+.PaymentContainer .text-wrapper-3 {
+    font-weight: 500;
+    margin-top: -2.01px;
+    text-align: right;
+    width: fit-content;
+}
+
+.PaymentContainer .text-wrapper-4 {
+    flex: 1;
+    font-weight: 600;
+}
+
+.PaymentContainer .text-wrapper-5 {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, rgb(255, 188, 79) 0%, rgb(249, 160, 27) 76.04%);
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+    margin-top: -2.01px;
+    text-align: right;
+    width: fit-content;
+}
+
+.btn {
+    background: linear-gradient(180deg, rgb(255, 188, 79) 0%, rgb(249, 160, 27) 76.04%);
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    padding: 10px 35px;
+}
