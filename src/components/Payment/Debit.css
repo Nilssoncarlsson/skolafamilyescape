@@ -1,0 +1,43 @@
+
+
+.DebitForm{
+  max-width: 50%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: auto;
+ 
+}
+.DebitForm .Form-group{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.DebitForm .infobox{
+  margin-top: 2%;
+  text-align: left;
+  padding: 20px 25px;
+}
+.DebitForm .Form-group .form-control, .DebitForm .Form-group .form-control .form-select {
+  box-shadow: 0px 3.42px 6.85px #f6f4f4;
+  border-radius: 10px;
+
+}
+
+.DebitForm .Form-group .form-control, .DebitForm .Form-group .form-check input, .DebitForm .Form-group .form-control .form-select {
+  border: 2.3px solid;
+  border-color: #E5E7EB;
+}
+.DebitForm .btn{
+    width: 50%;
+    margin: auto;
+}
+.optional .form-control{
+    padding: 25px 10px;
+}
+.optional .form-control::placeholder{
+    font-weight: 600;
+    color: rgb(255, 188, 79);
+}
