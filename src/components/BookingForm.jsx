@@ -1,22 +1,49 @@
 import React from "react";
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
-import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
+import Row from 'react-bootstrap/Row';
 
 
 function BookingForm (){
     return (
-        <Container>
-        <FloatingLabel
-        controlId="floatingInput"
-        label="Förnamn"
-        className="mb-3">
-             <Form.Control type="email" placeholder="name@example.com" />
-      </FloatingLabel>
-      <FloatingLabel controlId="floatingPassword" label="Password">
-        <Form.Control type="password" placeholder="Password" />
-      </FloatingLabel>
-      </Container>
+       <Form>
+        <Row>
+            <Col>
+            <Form.Control placeholder="Förnamn"/>
+            </Col>
+            <Col>
+            <Form.Control placeholder="Efternamn"/>
+            </Col>
+        </Row>
+        <Row>
+            <Col>
+            <Form.Control placeholder="E-mail"/>
+            </Col>
+            <Col>
+            <Form.Control placeholder="Telefonnummer"/>
+            </Col>
+        </Row>
+        <Form.Group className="mb-3" id="formGridCheckbox">
+            <Row>
+                <Col>
+                <Form.Check type="checkbox" label="Rökfri våning" />
+                </Col>
+                <Col>
+                <Form.Check type="checkbox" label="Våning för rökare" />
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                <Form.Check type="checkbox" label="Separerade sängar" />
+                </Col>
+                <Col>
+                <Form.Check type="checkbox" label="King size" />
+                </Col>
+            </Row>
+      </Form.Group>
+       </Form>
     );
 }
 

@@ -1,14 +1,17 @@
 import {DestinationCard} from './components/DestinationCard';
 import './App.css';
-import {BookingForm} from './components/BookingForm';
-import {EventDetails} from './components/EventDetails';
+
+import EventDetails from './components/EventDetails';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import BookingForm from './components/BookingForm';
 
 
 
 function App() {
   return (
     <div className="App">
+      <DestinationCard></DestinationCard>
+      <EventDetails></EventDetails>
       <BookingForm></BookingForm>
    </div>
   );
