@@ -52,9 +52,6 @@ function BookingForm (){
         <Form.Group  className="Form-group" >   
             <Form.Control placeholder="Några andra önskemål?" as="textarea" rows={8} />
         </Form.Group>
-        <Form.Group  className="Form-group" >   
-            <Form.Control placeholder="Några andra önskemål?" as="textarea" rows={8} />
-        </Form.Group>
 
             <Row className="infobox" rows={4}>
                 <strong>Återbetalningsbar</strong>
