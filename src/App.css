@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-.Form {
+.BookingForm {
   max-width: 70%;
   border-radius: 25px;
   display: flex;
@@ -13,23 +13,23 @@
   margin: auto;
   
 }
-.Form .Form-group{
+.BookingForm .Form-group{
     height: auto;
     width: 100%;
     padding: 10px;
 }
-.Form .infobox{
+.BookingForm .infobox{
   margin-top: 2%;
   text-align: left;
   padding: 20px 25px;
 }
-.Form .Form-group .form-control{
+.BookingForm .Form-group .form-control{
   box-shadow: 0px 3.42px 6.85px #f6f4f4;
   border-radius: 20px;
 
 }
 
-.Form .Form-group .form-control, .Form .Form-group .form-check input{
+.BookingForm .Form-group .form-control, .Form .Form-group .form-check input{
   border: 2.3px solid;
   border-color: #E5E7EB;
 }

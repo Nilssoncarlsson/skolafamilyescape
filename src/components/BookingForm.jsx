@@ -7,7 +7,7 @@ import '../App.css';
 
 function BookingForm (){
     return (
-       <Form className="Form">
+       <Form className="BookingForm">
         <Row className="Form-group">
             <Col>
             <Form.Control placeholder="Förnamn"/>      
