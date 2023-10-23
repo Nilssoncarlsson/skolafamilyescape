@@ -1,40 +1,43 @@
 import React from "react";
-
-
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
-
-import { Password } from './components/BookingInput.jsx';
-
+import InputGroup from 'react-bootstrap/InputGroup';
+import '../App.css';
+import { Password } from "./BookingInput.jsx";
 
 function BookingForm (){
     return (
-       <Form>
-        <Row>
+       <Form className="Form">
+        <Row className="Form-group">
             <Col>
-            <Form.Control placeholder="Förnamn"/>
+            <Form.Control placeholder="Förnamn"/>      
             </Col>
             <Col>
-            <Form.Control placeholder="Efternamn"/>
+                {/* <Password className="password-2"
+                text="Efternamn" /> */}
+
+                {/* <Password text="Efternamn" /> */}
+                <Form.Control placeholder="Efternamn"/>      
+
             </Col>
         </Row>
-        <Row>
+        <Row className="Form-group">
             <Col>
-            <Password className="password-instance" inputTextClassName="design-component-instance-node" text="E-mail" />
             <Form.Control placeholder="E-mail"/>      
             </Col>
             <Col>
             <Form.Control placeholder="Telefonnummer"/>
             </Col>
         </Row>
-        <Form.Group className="mb-3" id="formGridCheckbox">
-            <Row>
+        <Form.Group className="Form-group" id="formGridCheckbox">
+            <Row >
                 <Col>
+                
                 <Form.Check type="checkbox" label="Rökfri våning" />
                 </Col>
                 <Col>
-                <Form.Check type="checkbox" label="Våning för rökare" />
+                <Form.Check type="checkbox" label="Våning för rökare"/>
                 </Col>
             </Row>
             <Row>
@@ -47,16 +50,17 @@ function BookingForm (){
             </Row>
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">   
+        <Form.Group  controlId="exampleForm.ControlTextarea1" className="Form-group">   
             <Form.Control placeholder="Några andra önskemål?" as="textarea" rows={6} />
         </Form.Group>
 
-        <Form.Group className="mb-3 frame">
-        <div className="text-wrapper">Återbetalningsbar</div>
-        <p className="div">Avboka senast 72h innan bokning för full återbetalning</p>
-        </Form.Group>
+            <Row className="infobox">
+                <h3>Återbetalningsbar</h3>
+                <p>Avboka senast 72h innan bokning för full återbetalning</p>
+            </Row>
 
        </Form>
+       
     );
 }
 

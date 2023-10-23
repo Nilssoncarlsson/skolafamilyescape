@@ -40,7 +40,7 @@ export const DestinationCard = () => {
     ]
     return (
         
-        <Container>
+        <Container className="destination-card">
             <h2>Populära destinationer</h2>
             <Row className="image-row justify-content-md-center">
               {DestinationArray.map((dest, index) => (
