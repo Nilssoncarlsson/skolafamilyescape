@@ -4,6 +4,8 @@ import './App.css';
 import EventDetails from './components/EventDetails';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BookingForm from './components/BookingForm';
+import './BookingForm.css';
+
 
 
 
@@ -13,7 +15,7 @@ function App() {
       <DestinationCard></DestinationCard>
       <EventDetails></EventDetails>
       <BookingForm></BookingForm>
-   </div>
+     </div>
   );
 }
 

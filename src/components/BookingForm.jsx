@@ -1,9 +1,11 @@
 import React from "react";
-import FloatingLabel from 'react-bootstrap/FloatingLabel';
-import Container from 'react-bootstrap/Container';
+
+
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
+
+import { Password } from './components/BookingInput.jsx';
 
 
 function BookingForm (){
@@ -19,7 +21,8 @@ function BookingForm (){
         </Row>
         <Row>
             <Col>
-            <Form.Control placeholder="E-mail"/>
+            <Password className="password-instance" inputTextClassName="design-component-instance-node" text="E-mail" />
+            <Form.Control placeholder="E-mail"/>      
             </Col>
             <Col>
             <Form.Control placeholder="Telefonnummer"/>
@@ -42,7 +45,17 @@ function BookingForm (){
                 <Form.Check type="checkbox" label="King size" />
                 </Col>
             </Row>
-      </Form.Group>
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">   
+            <Form.Control placeholder="Några andra önskemål?" as="textarea" rows={6} />
+        </Form.Group>
+
+        <Form.Group className="mb-3 frame">
+        <div className="text-wrapper">Återbetalningsbar</div>
+        <p className="div">Avboka senast 72h innan bokning för full återbetalning</p>
+        </Form.Group>
+
        </Form>
     );
 }
