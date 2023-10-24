@@ -1,6 +1,10 @@
+#root > div > div > div{
+    margin-top: 2%;
+}
 .recommended-container {
     width: 100%;
     height: auto;
+    
 }
 
 .card-img-top {
