@@ -11,9 +11,13 @@ import DebitDetails from './components/Payment/DebitDetails';
 function App() {
   return (
     <div className="App">
+      
+      <DestinationCard></DestinationCard>
+      <EventDetails></EventDetails>
       <BookingForm></BookingForm>
       <PaymentContainer></PaymentContainer>
       <DebitDetails></DebitDetails>
+
      </div>
   );
 }
