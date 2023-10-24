@@ -2,11 +2,10 @@ import React from 'react';
 import './HotelCard.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 
 export const hotelCard = [
     {
-        hotelimage: './Images/costaazul.png',
+        hotelimage: 'https://assets-global.website-files.com/5c6d6c45eaa55f57c6367749/65045f093c166fdddb4a94a5_x-65045f0266217.webp',
         hotelname: "Hotel Costa Azul",
         city: "Calle Sollér",
         facilities: "Frukost , fritt wi-fi",
@@ -15,7 +14,7 @@ export const hotelCard = [
         price: "1145",
     },
     {
-        hotelimage: './Images/tacande.png',
+        hotelimage: 'https://static01.nyt.com/images/2019/03/24/travel/24trending-shophotels1/24trending-shophotels1-jumbo.jpg?quality=75&auto=webp',
         hotelname: "Tacande Portals Hotel",
         city: "Calle Sollér",
         facilities: "Frukost , Fritt wi-fi, Gym",
@@ -28,7 +27,7 @@ export const hotelCard = [
 // Skapa en array med hotellrumskort, varje objekt representerar ett rum
 export const hotelRoomCards = [
     {
-      hotelimage: './Images/economyroom.png', // Källan till rummets bild
+      hotelimage: 'https://static01.nyt.com/images/2019/03/24/travel/24trending-shophotels1/24trending-shophotels1-jumbo.jpg?quality=75&auto=webp', // Källan till rummets bild
       type: "Economy dubbelrum", // Typ av rum
       bed: "1 Dubbelsäng eller 2 enkelsängar", // Sängtyp
       sqm: "45m2", // Rumets storlek

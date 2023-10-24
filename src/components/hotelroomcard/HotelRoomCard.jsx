@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 
 export const hotelRoomCard = [
     {
-        hotelimage: './Images/economyroom.png',
+        hotelimage: 'https://assets-global.website-files.com/5c6d6c45eaa55f57c6367749/65045f093c166fdddb4a94a5_x-65045f0266217.webp',
         type: "Economy dubbelrum",
         bed: "1 Dubbelsäng eller 2 enkelsängar",
         sqm: "45m2",
@@ -18,7 +18,7 @@ export const hotelRoomCard = [
 
     },
     {
-        hotelimage: './Images/queenroom.png',
+        hotelimage: 'https://static01.nyt.com/images/2019/03/24/travel/24trending-shophotels1/24trending-shophotels1-jumbo.jpg?quality=75&auto=webp',
         type: "Double Superior King Size Bed Room",
         bed: "1 King Size Bed",
         sqm: "45m2",
@@ -29,7 +29,7 @@ export const hotelRoomCard = [
         price: "1684",
     },
     {
-        hotelimage: './Images/kingroom.png',
+        hotelimage: 'https://assets-global.website-files.com/5c6d6c45eaa55f57c6367749/65045f093c166fdddb4a94a5_x-65045f0266217.webp',
         type: "Double Superior King Size Bed Room",
         bed: "1 King Size Bed",
         sqm: "50m2",
