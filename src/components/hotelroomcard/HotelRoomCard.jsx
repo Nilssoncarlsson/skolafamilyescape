@@ -4,29 +4,8 @@ import { CardBody, Col, Container, Row, } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 // import { CardImage } from 'react-bootstrap-icons';
 
-export const hotelCard = [
-    {
-        hotelimage: 'https://assets-global.website-files.com/5c6d6c45eaa55f57c6367749/65045f093c166fdddb4a94a5_x-65045f0266217.webp',
-        hotelname: "Hotel Costa Azul",
-        city: "Calle Sollér",
-        facilities: "Frukost , fritt wi-fi",
-        stars: "4,3",
-        rating: '1,203',
-        price: "1145",
-    },
-    {
-        hotelimage: 'https://static01.nyt.com/images/2019/03/24/travel/24trending-shophotels1/24trending-shophotels1-jumbo.jpg?quality=75&auto=webp',
-        hotelname: "Tacande Portals Hotel",
-        city: "Calle Sollér",
-        facilities: "Frukost , Fritt wi-fi, Gym",
-        stars: "4,4",
-        rating: '898',
-        price: "1199",
-    },
-]
-
 // Skapa en array med hotellrumskort, varje objekt representerar ett rum
-export const hotelRoomCards = [
+export const HotelRoomCards = [
     {
         hotelimage: 'https://static01.nyt.com/images/2019/03/24/travel/24trending-shophotels1/24trending-shophotels1-jumbo.jpg?quality=75&auto=webp', // Källan till rummets bild
         type: "Economy dubbelrum", // Typ av rum
@@ -46,7 +25,7 @@ export default function HotelRoom() {
         <Container> {/* En Bootstrap Container för att innehålla innehållet */}
             <Row> {/* En Bootstrap Row för att rada upp hotellrumskorten */}
                 {
-                    hotelRoomCards.map((hotelroom, index) => { // Loopa igenom hotellrumskorten
+                    HotelRoomCards.map((hotelroom, index) => { // Loopa igenom hotellrumskorten
                         return (
                             <Card key={index} className="room-card"> {/* Ett Bootstrap Card-komponent för varje hotellrum */}
                                 <Row> {/* En Bootstrap Row inuti varje Card för layout */}
