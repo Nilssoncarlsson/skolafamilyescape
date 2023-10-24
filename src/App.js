@@ -12,12 +12,11 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <div className="App">
-      
-      {/* <DestinationCard></DestinationCard>
+      <Header></Header><br></br>
+     <DestinationCard></DestinationCard>
       <EventDetails></EventDetails>
       <BookingForm></BookingForm>
-      <PaymentContainer></PaymentContainer> */}
-      <Header></Header>
+      <PaymentContainer></PaymentContainer> 
       <DebitDetails></DebitDetails>
 
      </div>

@@ -1,7 +1,20 @@
 
+*{
+   /* Typsnittsfamilj med en fallback om "Montserrat" inte är tillgänglig */
+   font-family: "Montserrat", Helvetica;
+   color: #00000099; /* Textfärg med viss genomskinlighet */
+}
 
 .destination-card {
   text-align: center;
+  margin-bottom: 100px;
+}
+.destination-card h2{
+  margin: 10px 1px 80px 1px;
+}
+#root > div > div.destination-card.container > div > div > h3{
+  margin: 15px 1px 1px 1px;
+  font-size: 1.5rem;
 }
 
 .BookingForm {
