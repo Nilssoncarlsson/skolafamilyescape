@@ -1,0 +1,16 @@
+.card-list {
+    text-align: left;
+    list-style: none;
+}
+
+.card-see-more {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.room-price {
+    position: absolute;
+    bottom: 0;
+    color: grey;
+    font-weight: bold;
+} 

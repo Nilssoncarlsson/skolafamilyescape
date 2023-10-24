@@ -1,0 +1,60 @@
+body, h1, h2, h3, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+.index {
+  font-family: 'Arial', sans-serif;  /* Typsnitt */
+  background-color: #f4f4f4;  /* Bakgrundsfärg */
+  min-height: 100vh;  /* Minsta höjd */
+}
+
+.main-content {
+  display: flex;  /* Flexbox-layout */
+  padding: 20px;  /* Inre mellanrum */
+}
+
+.sidebar {
+  flex-basis: 150px;  /* Standardbredd */
+  padding: 10px;  /* Inre mellanrum */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);  /* Skugga */
+  position: sticky;  /* Fast position */
+  top: 20px;  /* Avstånd från toppen */
+  transform: scale(0.5); /* Skala ner till hälften av ursprungsstorleken */
+  transform-origin: top left; /* Sätt origo för skalningen till övre vänstra hörnet */
+}
+
+.room-listing {
+  padding-left: 20px; /* Add some space between the sidebar and room listing */
+}
+
+
+.multislider{
+  margin-left: 20px;
+}
+
+
+.room-listing {
+  flex-grow: 1;  /* Låt denna sektion växa */
+  padding: 0 20px;  /* Inre mellanrum */
+}
+
+.p {
+  color: #999;  /* Textfärg */
+  margin-bottom: 10px;  /* Yttre mellanrum nedåt */
+}
+
+.map-image {
+  max-width: 50%;  /* Maxbredd */
+  margin: 10px 0;  /* Yttre mellanrum */
+}
+
+.Bars, .price {
+  margin: 20px 0;  /* Yttre mellanrum */
+}
+
+.Footer {
+  margin-top: 20px;  /* Yttre mellanrum uppåt */
+}
+
+

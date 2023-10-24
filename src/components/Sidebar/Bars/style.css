@@ -1,0 +1,28 @@
+.chart {
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 5px;
+  box-sizing: border-box; 
+}
+
+.bar {
+  width: 10%; /* Width of each bar */
+  background-color: #d9d9d9;
+  transition: height 0.3s;
+  margin: 1px;
+  opacity: 80%;
+}
+
+.budget {
+  height: 39px;
+  width: 342px;
+  color: #00000099;
+  font-family: "Outfit", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+
+}

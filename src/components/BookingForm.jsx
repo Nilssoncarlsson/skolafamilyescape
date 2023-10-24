@@ -10,6 +10,7 @@ function BookingForm() {
     return (
         // Start a Form with a CSS class named "BookingForm"
         <Form className="BookingForm">
+            <h2>Bokningsförfrågan</h2>
             {/* Create a row for entering the first name and last name */}
             <Row className="Form-group">
                 <Col>

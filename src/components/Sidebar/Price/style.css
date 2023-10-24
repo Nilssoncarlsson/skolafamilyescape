@@ -1,0 +1,28 @@
+.price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 407px;
+  position: relative; /* Ensures that absolute positioned children are positioned relative to this container */
+}
+
+.price-box {
+  border: 1px solid #00000080;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.currency-label, .amount {
+  font-family: "Yantramanav-Regular", Helvetica;
+  font-size: 32px;
+  color: #000000;
+  margin: 0 10px; /* Added a small margin for better spacing */
+}
+
+.separator-line {
+  width: 82px;
+  height: 1px;
+  background-color: #00000080; /* To give the line color */
+  margin: 0 10px; /* Margin on both sides to space it out from the price boxes */
+}

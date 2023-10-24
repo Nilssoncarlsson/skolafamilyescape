@@ -1,0 +1,43 @@
+.facilities-container {
+  width: 300px;
+}
+
+.section-title {
+  color: #000000;
+  font-family: "Montserrat", Helvetica;
+  font-size: 34px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.facility-name, #root > div > div.index > div.facilities-container > div > label {
+  color: #00000099;
+  font-family: "Outfit", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  margin-left: 10px; /* Added space between checkbox and label */
+}
+
+.facility-item, .star-rating-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px; /* Added space between checkbox and stars */
+}
+
+.bi-star-fill.star {
+  color: #F5AE16;
+  font-size: 24px;
+}
+
+#root > div > div.index > div.facilities-container > div > input[type=checkbox]{
+  transform: scale(3);
+  margin-right: 10px;  /* Add some space between the scaled checkbox and the label or stars */
+
+}

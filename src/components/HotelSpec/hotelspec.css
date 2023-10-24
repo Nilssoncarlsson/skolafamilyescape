@@ -1,0 +1,14 @@
+
+
+.map-image {
+    max-width: 40%;  /* Maxbredd */
+    margin: 10px 0;  /* Yttre mellanrum */
+}
+.hotelspecwrapper h2, .hotelspecwrapper p{
+    display: flex;
+    justify-content: center;
+    margin: 0px 20% 0px 20%;
+}
+.hotelspecwrapper h2 {
+    margin: 1%;
+}

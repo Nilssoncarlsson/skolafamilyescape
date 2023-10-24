@@ -1,0 +1,58 @@
+/* Stil för hela footern. Bestämmer bland annat bakgrund, padding, och textens typsnitt. */
+.footer {
+  background-image: linear-gradient(0deg, rgba(239, 221, 197, 0.30) 0%, rgba(255, 245, 245, 0.00) 132.43%);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Outfit", Helvetica;
+}
+
+.overlap-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start; /* Align to the left */
+}
+
+.logo-socmed-container {
+  display: flex;
+  flex-direction: column; /* Stack vertically */
+  align-items: flex-start;
+  margin-right: 40px; /* Spacing from the list groups */
+  margin-bottom: 60px;
+  margin-left: 100px;
+  transform: scale(1.2);
+}
+
+.footer-logo {
+  width: 300px;
+  margin-bottom: 10px; /* Spacing between logo and socmed icons */
+}
+
+.socmed {
+  width: 150px;
+  margin-left: 60px;
+}
+
+.group,
+.group-2,
+.group-3,
+.group-4 {
+  list-style-type: none;
+  padding: 20px 0 50px 20px;
+  margin: 0 20px;
+  
+}
+
+.group li:first-child,
+.group-2 li:first-child,
+.group-3 li:first-child,
+.group-4 li:first-child {
+  font-weight: bold;
+}
+
+li {
+  margin: 20px;
+  opacity: 0.8;
+}
