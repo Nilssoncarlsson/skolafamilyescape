@@ -1,0 +1,92 @@
+/* Importera ikonbiblioteket bootstrap-icons för att använda deras ikoner */
+/*fick inte nedan att fungera...................................................................*/
+/* @import "~bootstrap-icons/font/bootstrap-icons.css"; */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+/* Grundstilar för sökfältets huvudomslutande behållare */
+.searchbar {
+    background-color: transparent; /* Transparent bakgrund */
+    width: 80%; /* Ta upp hela tillgängliga bredden */
+    border-radius: 15.893px; /* Runda hörnen för en mjukare design */
+}
+
+/* Stilar för den inre behållaren som innesluter de överlappande elementen */
+.searchbar .overlap-group-wrapper {
+    border: 0.53px solid #dddddd; /* Lägg till en tunn grå ram */
+    height: 36.02px; /* Definierad höjd */
+    overflow: hidden; /* Göm överskottsinnehåll som inte passar in i behållaren */
+    width: 445px; /* Justerad bredd enligt föreslagen CSS */
+    display: flex; /* Flexibel layout för att positionera barnen effektivt */
+    position: relative; /* Relativ positionering för att positionera absolut positionerade barn */
+}
+
+
+/* Gemensamma stilar för de tre huvudelementen inom overlap-group */
+.searchbar .nr, .searchbar .vem, .searchbar .vart {
+    position: absolute; /* Absolut positionering inom overlap-group */
+    top: 0; /* Positionerad högst upp */
+    height: 36px; /* Definierad höjd */
+}
+
+/* Specif positionering och storlek för varje enskilt element inom overlap-group */
+.searchbar .nr {
+    width: 144px;
+    left: 303px;
+}
+
+.searchbar .vem {
+    width: 157px;
+    left: 148px;
+}
+
+.searchbar .vart {
+    width: 150px;
+    left: 0;
+}
+
+/* Grundstilar för textelement inom varje sektion av sökfältet */
+.searchbar .text-wrapper, .searchbar .div, .searchbar .destination {
+    position: absolute; /* Absolut positionering */
+    font-family: "Montserrat", Helvetica; /* Typsnitt */
+    font-size: 17px; /* Textstorlek */
+    font-weight: 400; /* Textvikt */
+    color: #00000099; /* Textfärg med viss genomskinlighet */
+    top: 7px; /* Topppositionering */
+}
+
+/* Specifik positionering för varje textelement */
+.searchbar .text-wrapper {
+    left: 42px;
+}
+
+.searchbar .div {
+    left: 61px;
+}
+
+.searchbar .destination {
+    left: 43px;
+}
+
+/* Grundstilar för ikoner inom varje sektion av sökfältet */
+.searchbar .simple-line-icons, .searchbar .vector, .searchbar .img {
+    position: absolute; /* Absolut positionering */
+    top: 11px; /* Topppositionering */
+    height: 16px; /* Ikonhöjd */
+    width: 19px; /* Ikonbredd */
+}
+
+/* Specifik positionering för ikoner */
+.searchbar .vector {
+    left: 16px;
+    padding-bottom: 10px;
+}
+
+.searchbar .img {
+    left: 19px;
+    width: 12px;
+}
+
+/* Särskild färg för vector-klassen */
+.vector {
+    color: #F5AE16;
+}

@@ -1,0 +1,55 @@
+/* Grundstil för sökknappen */
+.searchbutton {
+  /* Centrera innehållet vertikalt */
+  align-items: center;
+  /* Runda kanterna på knappen för ett mjukt utseende */
+  border-radius: 124.98px;
+  /* Skugga under och till vänster om knappen för ett lyft utseende */
+  box-shadow: 1px 3px 4px #00000040, -2px 0px 8px #00000040;
+  /* Använd en inline-flex behållare för att placera barnobjekt i rad */
+  display: inline-flex;
+  /* Avstånd mellan ikonen och texten inuti knappen */
+  gap: 14px;
+  /* Centrera innehållet horisontellt */
+  justify-content: center;
+  /* Ytterligare utrymme runt innehållet inuti knappen */
+  padding: 10px 20px;
+}
+
+/* Stil för textområdet inom sökknappen */
+.searchbutton .text-wrapper {
+  /* Textfärg */
+  color: #ffffff;
+  /* Typsnittsfamilj med en fallback om "Montserrat" inte är tillgänglig */
+  font-family: "Montserrat", Helvetica;
+  /* Textstorlek */
+  font-size: 22px;
+  /* Typsnittsvikt */
+  font-weight: 400;
+  /* Avstånd mellan tecken */
+  letter-spacing: 0;
+  /* Radhöjd */
+  line-height: normal;
+  /* Justera textens vertikala position något */
+  margin-top: -1.25px;
+  /* Låt innehållet bestämma bredden */
+  width: fit-content;
+}
+
+/* Stil för sökikonen inom knappen */
+.searchbutton .bi-search {
+  /* Storlek på ikonen */
+  font-size: 20.75px; 
+  /* Ikonfärg */
+  color: #ffffff;    
+}
+
+/* Bakgrundsfärg för standard (default) sökknappen */
+.searchbutton.default {
+  background: linear-gradient(180deg, rgb(255, 188, 79) 0%, rgb(249, 160, 27) 76.04%);
+}
+
+/* Bakgrundsfärg för en alternativ variant av sökknappen */
+.searchbutton.variant-2 {
+  background: linear-gradient(180deg, rgb(255, 211.72, 141.31) 0%, rgb(255, 186.85, 85) 76.04%);
+}

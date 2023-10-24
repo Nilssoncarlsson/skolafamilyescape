@@ -1,0 +1,40 @@
+.navbar{
+  padding: 20px 20px 20px 20px;
+}
+
+.header-logo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px; /* Lägger till utrymme under logotypen*/
+}
+
+/* Stilar för inloggningsikonen */
+.login {
+  max-width: 50%;
+  height: auto;
+  margin: auto; /* Lägger till utrymme ovanför inloggningsikonen */
+}
+.searchbar .overlap-group-wrapper {
+  border-radius: 15px;
+  border: 0.53px solid #dddddd;
+}
+.searchbar .vector, .searchbutton{
+  display: flex;
+ justify-content: baseline;
+}
+.searchbar .nr{
+  border-left: 0.53px solid #dddddd;
+}
+.searchbar .vart{
+  border-right: 0.53px solid #dddddd;
+}
+.input-group .col-auto {
+  display: flex;
+  
+  align-items:baseline;
+}
+.searchbar .vector, .searchbutton{
+  height: 35px;
+  margin: auto;
+  margin-right: 25px;
+}

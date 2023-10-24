@@ -7,15 +7,17 @@ import BookingForm from './components/BookingForm';
 import {PaymentContainer} from './components/PaymentSpec';
 import './paymentspec.css';
 import DebitDetails from './components/Payment/DebitDetails';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
       
-      <DestinationCard></DestinationCard>
+      {/* <DestinationCard></DestinationCard>
       <EventDetails></EventDetails>
       <BookingForm></BookingForm>
-      <PaymentContainer></PaymentContainer>
+      <PaymentContainer></PaymentContainer> */}
+      <Header></Header>
       <DebitDetails></DebitDetails>
 
      </div>
