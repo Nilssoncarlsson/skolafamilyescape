@@ -82,34 +82,3 @@ export default function HotelRooms() {
         </Container >
     )
 }
-
-/* 
-export default function HotelRoom() {
-    return (
-        <Container fluid class="card-container">
-            <Row md={8} > {
-                hotelRoomCard.map((hotelroom, index) => {
-                    return (
-                        <div className="d-flex flex-row" key={index}>
-                            <Card class="result-card">
-                                <Card.Img src={hotelroom.hotelimage} className="img-fluid" variant="top"  />
-                            </Card>
-                            <Card.Body className="d-flex flex-column">
-                                <div i class="bi bi-heart" style={{ color: 'red' }}></div>
-                                <Card.Title><h3>{hotelroom.hotelname}</h3></Card.Title>
-                                <Card.Text>
-                                    <p><i class="bi bi-geo-alt-fill"></i>{hotelroom.city}</p>
-                                    <p>{hotelroom.facilities}</p>
-                                    <p>{hotelroom.seeall}</p>
-                                    <p>{hotelroom.price} kr/natt</p>
-                                </Card.Text>
-                            </Card.Body>
-                        </div>
-                    )
-                }
-                )
-            }
-            </Row>
-        </Container >
-    )
-}   */
