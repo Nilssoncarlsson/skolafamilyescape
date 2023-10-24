@@ -11,7 +11,6 @@ import { Footer } from './components/Footer/Footer copy/Footer';
 import HotelSpec from './components/HotelSpec/HotelSpec';
 import Book from './components/Booking/Book';
 import Sidebar from './components/Sidebar/Sidebar';
-import HotelCard from './components/hotelcard/HotelCard';
 import HotelRoom from './components/hotelroomcard/HotelRoomCard';
 import EventCard from './components/EventCard/EventCard';
 
@@ -22,7 +21,6 @@ function App() {
       <Header/>
      <DestinationCard/>
      <TravelCard/>
-     {/* <HotelCard/> */}
      <EventCard/>
      <TravelCard/>
      <Footer/>
