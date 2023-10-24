@@ -1,6 +1,4 @@
-
-
-.room-card {
+.hotel-card {
   margin-top: 3%;
   margin-bottom: 3%;
   border: 1px solid;
@@ -10,12 +8,24 @@
   position: relative;
 }
 
+
+.d-flex  {
+  text-align: left;
+}
+
+.card-text {
+  text-align: left;
+}
+
 .img-fluid {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.hotel-body {
-  text-align: left;
+.room-price {
+  position: absolute;
+  bottom: 0;
+  color: grey;
+  font-weight: bold;
 }
