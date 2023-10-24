@@ -8,10 +8,12 @@ import DebitDetails from './components/Payment/DebitDetails';
 import Header from './components/Header/Header';
 import TravelCard from './components/recocard/TravelCard';
 import { Footer } from './components/Footer/Footer copy/Footer';
-import HotelRooms from './components/hotelroomcard/HotelRoomCard';
 import HotelSpec from './components/HotelSpec/HotelSpec';
 import Book from './components/Booking/Book';
 import Sidebar from './components/Sidebar/Sidebar';
+import HotelCard from './components/hotelcard/HotelCard';
+import HotelRoom from './components/hotelroomcard/HotelRoomCard';
+import EventCard from './components/EventCard/EventCard';
 
 function App() {
 
@@ -19,9 +21,10 @@ function App() {
     <div className="App">
       <Header/>
      <DestinationCard/>
-     <TravelCard>
-     </TravelCard>
-    <HotelRooms/>
+     <TravelCard/>
+     {/* <HotelCard/> */}
+     <EventCard/>
+     <TravelCard/>
      <Footer/>
      <Header/>
      <HotelSpec/>

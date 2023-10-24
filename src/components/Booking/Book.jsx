@@ -1,11 +1,10 @@
 import React from "react";
 import BookingForm from "../BookingForm";
-import HotelRoom from "../hotelcard/HotelCard";
+import hotelRoom from "../hotelcard/HotelCard";
 function Book() {
   return (
     <div className="hotelspecwrapper">
 
-      <HotelRoom/>
     <BookingForm/>
     </div>
   
